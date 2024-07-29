@@ -22,7 +22,7 @@ test('Lohin Test with press sequentially method for orange HRM', async({page}) =
 
 })
 
-test('Lohin Test with press sequentially method with delay for orange HRM', async({page}) => {
+test('Lohin Test with press sequentially method without delay for orange HRM', async({page}) => {
     await page.goto('https://testproject-osondemand.orangehrm.com/auth/login');
     await page.locator('input[placeholder="Username"]').pressSequentially('Admin', {delay:200})
     await page.locator('input[placeholder="Password"]').pressSequentially('1HVbH@f@rQ@1', {delay:200})
