@@ -14,7 +14,7 @@ test('Confirmation alert with Ok button', async({page}) => {
     await page.close();
 })
 
-test.only('Confirmation alert with Cancel button', async({page}) => {
+test('Confirmation alert with Cancel button', async({page}) => {
     await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
     
     page.on("dialog",async(alert)=>{

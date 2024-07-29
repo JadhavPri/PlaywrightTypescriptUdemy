@@ -14,7 +14,7 @@ test('Prompt alert with Ok button', async({page}) => {
     await page.close();
 })
 
-test.only('Prompt alert with Cancel button', async({page}) => {
+test('Prompt alert with Cancel button', async({page}) => {
     await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
     
     page.on("dialog",async(alert)=>{

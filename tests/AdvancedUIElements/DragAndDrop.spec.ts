@@ -16,7 +16,7 @@ test('Drag And Drop approach 1', async ({ page }) => {
 
 })
 
-test.only('Drag And Drop approach 2', async ({ page }) => {
+test('Drag And Drop approach 2', async ({ page }) => {
     await page.goto('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html');
 
     const washington = page.locator('//div[@id="box3"] [text()="Washington"]');

@@ -10,7 +10,7 @@ test('Simple alert Dropdown without reading the alert text', async({page}) => {
 
 })
 
-test.only('Simple alert Dropdown with reading the alert text', async({page}) => {
+test('Simple alert Dropdown with reading the alert text', async({page}) => {
     await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
     page.on("dialog",async(alert)=>{
         const alertMessage = alert.message();

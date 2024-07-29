@@ -27,7 +27,7 @@ test('Frame handling using Page.Frame()', async({page}) => {
 
 })
 
-test.only('Frame handling using Page.FrameLocator()', async({page}) => {
+test('Frame handling using Page.FrameLocator()', async({page}) => {
     await page.goto('https://ui.vision/demo/webtest/frames/')
 
     // Check if the frame has the url 

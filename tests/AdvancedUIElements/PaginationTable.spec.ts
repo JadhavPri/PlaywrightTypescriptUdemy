@@ -71,7 +71,7 @@ test('All items from page 1', async({page}) => {
 
 })
 
-test.only('All items from all pages', async({page}) => {
+test('All items from all pages', async({page}) => {
     await page.goto('https://testautomationpractice.blogspot.com/');
     const table = page.locator('#productTable');
     const columns = table.locator('thead tr th');
