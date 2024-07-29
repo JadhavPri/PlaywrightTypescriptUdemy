@@ -1,0 +1,16 @@
+{
+  "name": "udemytypescript",
+  "version": "1.0.0",
+  "main": "HelloWorld.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.14.12",
+    "luxon": "^3.4.4"
+  }
+}
